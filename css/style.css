@@ -1,5 +1,117 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Debug */
+
+[class^="col"] {
+    border: 1px dashed black
+}
+
+
+
+/* Colors */
+
+:root {
+    --bg-jumbotron: #b4d0e6;
+    --bg-btn: #0061fe;
+}
+
+
+
+
+/* Utils */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* Generics */
+
+body {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid gray;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+ul {
+    gap: 0 1rem;
+
+}
+
+
+li {
+
+    list-style: none;
+}
+
+.btn {
+    padding: 0.5rem 0.8rem;
+    background-color: var(--bg-btn);
+    border: 1px solid white;
+    color: white;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+header {
+
+    padding: 1rem;
+
+    li {
+        font-size: 0.8rem;
+    }
+}
+
+.navbar {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.header-left ul {
+
+    width: 100%;
+
+}
+
+.header-right {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+
+    ul {
+        justify-content: flex-end;
+    }
+
+
 }
