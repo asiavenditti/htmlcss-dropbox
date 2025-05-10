@@ -31,7 +31,7 @@
 :root {
     --bg-jumbotron: #b4d0e6;
     --bg-btn: #0061fe;
-    --col-light: #eae9ec;
+    --col-light: #e4e3e6;
 }
 
 
@@ -99,11 +99,11 @@
 
 /* Columns */
 
-.col-right {
+.w-70 {
     width: 70%;
 }
 
-.col-left {
+.w-30 {
     width: 30%;
     flex-direction: column;
     justify-content: flex-start;
@@ -348,6 +348,7 @@ header {
     line-height: 2.5rem;
     margin: 0.5rem;
 
+
     .card-top {
 
         text-align: center;
@@ -402,4 +403,25 @@ header {
 .card-bottom ul {
     line-height: 2rem;
     min-height: 300px;
+}
+
+
+.full-card {
+    border: 1px solid var(--col-light);
+    padding: 2rem;
+    line-height: 2rem;
+    margin: 0.5rem;
+
+
+
+
+    .w-70 {
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: space-between;
+        gap: 2rem;
+
+    }
+
+
 }
