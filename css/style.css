@@ -580,3 +580,55 @@ footer {
     }
 
 }
+
+
+
+
+/* Form login (bonus) */
+
+.card-login {
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h1 {
+        padding: 2rem;
+    }
+
+
+
+
+    h2 {
+        color: black;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .section-form {
+
+        height: 350px;
+        width: 300px;
+        border: 5px solid black;
+        background-color: #0061fe48;
+        border: 2px solid black;
+        border-radius: 20px;
+        text-align: center;
+
+
+
+    }
+
+
+
+}
+
+.form-login {
+    flex-basis: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
