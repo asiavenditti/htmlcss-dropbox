@@ -555,7 +555,7 @@ footer {
 
 .footer-bottom {
 
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 
     .s-line {
         width: 10%;
@@ -569,8 +569,13 @@ footer {
     }
 
     span {
+
         font-size: 0.8rem;
 
+    }
+
+    .span-language {
+        padding: 1.5rem 0;
     }
 
 }
