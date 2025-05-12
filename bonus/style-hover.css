@@ -1,0 +1,45 @@
+/* Effetto hover */
+
+
+.header-left,
+.header-right {
+
+    a:hover {
+        font-weight: bold;
+        border: 1px solid #0061fe11;
+        border-radius: 20px;
+        padding: 0.5rem;
+        transition: 0.5s;
+        color: #0061fe;
+    }
+
+}
+
+
+.btn:hover {
+    background-color: #134088;
+    transition: 0.3s;
+
+
+}
+
+
+.btn-white:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.click-here:hover {
+    color: #00307e;
+
+}
+
+
+
+.footer-top {
+    li:hover {
+        text-decoration: underline;
+    }
+}
