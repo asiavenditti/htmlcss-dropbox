@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="app-header">
 
         <nav class="navbar d-flex">
             <div class="header-left d-flex">
@@ -29,13 +29,13 @@
                         <li><a href="#">Contatta l'ufficio vendite</a></li>
                         <li><a href="#">Accedi</a></li>
                     </ul>
-                    <button class="btn"> Accedi </button>
+                    <button class="btn"> Inizia </button>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="jumbotron">
+        <section class="jumbotron" id="jumbo">
             <div class="container">
 
                 <div class="jumbotron-content">
@@ -54,7 +54,7 @@
 
                             <button class="btn"> Inizia la tua prova gratuita</button>
                             <span>Annulla in qualsiasi momento</span>
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <a href="#business"> <i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                         <div class="w-70">
                             <div class="jumbotron-img">
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <section class="business-section sm-container">
+        <section class="business-section sm-container" id="business">
             <h2>Trova il piano business che fa per te</h2>
 
             <div class="input-buttons d-flex">
@@ -365,7 +365,8 @@
             <div class="s-line"></div>
             <div class="span-language">
 
-                <i class="fa-solid fa-globe"></i> <span>Italiano</span> <i class="fa-solid fa-arrow-up"></i>
+                <i class="fa-solid fa-globe"></i> <span>Italiano</span>
+                <a href="#jumbo"> <i class="fa-solid fa-arrow-up"></i></a>
             </div>
         </div>
     </footer>
